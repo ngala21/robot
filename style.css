@@ -1,0 +1,89 @@
+/* Fonts */
+
+/* Reset */
+*, 
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* ------------------ Variables ------------------ */
+:root {
+  /* ===================== Colors ===================== */
+  /* primary */
+
+  /* default */
+  --white: #fff;
+  --black: #000;
+
+  /* fonts */
+  --headingFont: 'Spectral', serif;
+  --bodyFont: 'Karla', sans-serif;
+  --smallText: 0.7em;
+
+  /*  */
+  --container-width-lg: 76%;
+  --container-width-md: 85%;
+  --container-width-sm: 90%;
+
+  /* rest vars */
+  --borderRadius: 1rem;
+  --transition: all 400ms ease;
+}
+
+body {
+  /* font-family: var(--bodyFont); */
+  line-height: 1.7;
+  color: #fff;
+  background: #222;
+}
+
+.container {
+  width: var(--container-width-sm);
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  height: 100vh;
+}
+section h1, section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+section h4 {
+  text-align: center;
+}
+
+.btn {
+  transition: var(--transition);
+}
+
+.btn:hover {
+
+}
+
+
+
+.robot__content p {
+  margin-bottom: 1.3rem;
+}
+
+.works__container {
+  padding-top: 5%;
+
+.footer__container {
+  height: 4rem;
+  text-align: center;
+}
+
+.footer__logo a {
+  color: #00f;
+}
